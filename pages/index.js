@@ -4,7 +4,7 @@ import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 
 export default function Home() {
-  const summary = `Je suis développeur·se spécialisé·e en ... (remplace par ton résumé professionnel). Disponible pour missions freelance / CDI.`;
+  const summary = `Je suis un étudiant en ingénierie à l'Université de Liège. Passionné depuis l'enfance par l'informatique, j'ai réalisé nombre de petits projets et ce site sert de portfolio à caractère non-exhaustif afin de présenter et documenter certains de ces projets. Bonne visite ;)`;
   const skills = ["JavaScript", "React", "Next.js", "Node.js", "TailwindCSS"];
 
   const projects = [
@@ -36,12 +36,12 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header name="Ton Nom" role="Développeur·se Web" avatar="/avatar.jpg" />
+      <Header name="Nathan Remacle" role="Engineering Student" avatar="/avatar.png" />
       <main className="flex-grow">
         <About summary={summary} skills={skills} />
         <Projects repos={projects} />
       </main>
-      <Footer email="ton.email@example.com" />
+      <Footer email="nathanremacle@outlook.fr" />
     </div>
   )
 }
