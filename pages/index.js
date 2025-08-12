@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header name="Nathan Remacle" role="Engineering Student" avatar="/avatar.png" />
+      <Header name="Nathan Remacle" role="Engineering Student" avatar="/avatar.jpg" />
       <main className="flex-grow">
         <About summary={summary} skills={skills} />
         <Projects repos={projects} />
